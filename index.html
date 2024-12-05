@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme Révolutionnaire</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo" height="100" class="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#vision">Notre Vision</a></li>
+                    <li><a href="#publications">Dernières Publications</a></li>
+                    <li><a href="#adherer">Adhérer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Un Futur Souverain</h1>
+            <p>Découvrez notre vision révolutionnaire pour bâtir une société forte, unie et autonome.</p>
+            <a href="assets/docs/programme.pdf" target="_blank">
+                <button>Télécharger le Programme</button>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- Section Notre Vision -->
+    <section id="vision">
+        <h2>Notre Vision</h2>
+        <p>
+            Aucun préjugé, aucune moquerie, aucune discrimination, aucun mépris du reste du monde ne saurait atteindre l'Homme noir s'il prospérait économiquement, culturellement, spirituellement, psychologiquement, intellectuellement, socialement… Sa terre est naturellement riche sous tous ces aspects, et le restera, malgré les siècles de pillages et d'empoisonnement qu'elle a subi. C'est pourquoi il nous faut exercer une double critique : contre les ennemis du continent noir et leurs méthodes de prédation, mais aussi contre nous-mêmes en tant qu'Africains. Nous ne pouvons pas continuellement dénoncer leurs méthodes tout en restant conformes à ce qu'ils attendent de nous. Continuer à utiliser leurs langues comme langues officielles, à penser selon leur paradigme, à leur demander de l'aide pour les besoins les plus rudimentaires d’un État… La lutte pour l'achèvement des indépendances n'aboutira pas ainsi, et l'ennemi s'en sert pour discréditer notre combat. Nous devons utiliser notre colère à bon escient, en nous appropriant et en valorisant les éléments de notre identité : langues, prénoms, histoire, politique de gouvernance…
+
+        </p>
+    </section>
+
+    <!-- Section des Dernières Publications -->
+    <section id="publications" class="actualites">
+        <h2>Dernières Publications</h2>
+        <div class="actualites-container">
+            <div class="carte">
+                <img src="assets/images/image1.jpg" alt="Publication1">
+                <h3>Manuel d'une lutte politique pour l'exercice du pouvoir de l'Etat</h3>
+                <p>Sans idéologie, il n’y a pas de vision claire. L’absence d’une doctrine politique conduit à des gouvernements réactionnaires, incapables de proposer des solutions structurelles.</p>
+            </div>
+            <div class="carte">
+                <img src="assets/images/image2.jpg" alt="Publication2">
+                <h3>Le Président et les Illusions du Pouvoir de la démocratie</h3>
+                <p>Le Président nomme son gouvernement, et la plupart des ministres, directeurs et députés veulent occuper sa place. Après avoir accédé aux privilèges de l’État, n’importe qui se croit apte à occuper la fonction présidentielle. Pour nous c'est l'individu qui donne de la valeur à son poste. hélas la dans notre actuelle de notre société, c'est l'inverse. Ce qui rend facile le trafic d'influence et tout ce qui va avec. 
+                    .</p>
+            </div>
+            <div class="carte">
+                <img src="assets/images/image3.jpg" alt="Publication3">
+                <h3>Pour une Gouvernance Souveraine : Les Leçons d’une Révolution Politique</h3>
+                <p>L’histoire récente nous montre un schéma récurrent dans de nombreux pays : des États qui s’effondrent sous le poids de la corruption, des influences impérialistes et d’une gestion chaotique des ressources. Ces États, souvent dirigés par des élites redevables à des groupes d’intérêts ou à des puissances étrangères, deviennent incapables de répondre aux aspirations de leurs populations.
+.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Adhérer -->
+    <section id="adherer" class="adhesion">
+        <h2>Adhérer à Notre Mouvement</h2>
+        <p>Rejoignez notre révolution en devenant membre actif du changement. Ensemble, nous bâtirons une société plus juste et souveraine.</p>
+        <button onclick="window.location.href='adhesion.html';">Rejoignez-nous</button>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou collaboration, n’hésitez pas à nous écrire.</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Révolution Souveraine. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

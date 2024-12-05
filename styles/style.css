@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #5d4d1e;
+    margin-bottom: 1rem;
+}
+
+/* Header */
+.main-header {
+    background: #0a8f99; /* Couleur or/brun */
+    color: #c0b9b9;
+    padding: 0.07rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-header nav ul li a {
+    position: relative;
+    color: #dfd8d8;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-header nav ul li a:hover {
+    color: #ffe600; /* Or brillant */
+    transform: scale(1.1); /* Agrandir légèrement */
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Hero Section */
+#hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #1a1919;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#hero button:hover {
+    background: #0066cc;
+}
+
+/* Publications Section */
+.actualites-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carte {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 500px;
+}
+
+.carte img {
+    width: 100%;
+    height: auto;
+}
+
+.carte h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.carte p {
+    font-size: 1rem;
+    padding: 0 1rem 1.5rem;
+    color: #666;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #5d4d1e;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #40310f;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
